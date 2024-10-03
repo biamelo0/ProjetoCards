@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+
+.logo img{
+    width: 150px;
+    padding-left: 30px;
+}
+
+
+.menu{
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    padding: 10px;
+
+   
+}
+
+
+ul{
+    display: flex;
+    color: #fff;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.heroSection{
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.mensagem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    align-items: center;
+
+}
+
+.seta img{
+    width: 30px;
+    height: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.imagem img{
+    width: 600px;
+}
+
+.seta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagem{
+    padding-left: 150px;
+}
+
+
+.botao {
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    padding-inline: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-block: 10px;
+    display: flex;
+    color: #fff;
+}
+
+.botao img{
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 3.3rem;
+    font-weight: lighter;
+}
+
+.botao h3{
+    font-weight: lighter;
+}
+
+
+.card {
+    width: 310px;
+    height: 460px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 10px;
+
+}
+
+.card img{
+    padding-top: 10px;
+    width: 300px;
+    height: 240px;
+    border-radius: 5px;
+    max-width: 100%;
+    
+
+}
+
+.botaoCard {
+    background-color: #223947;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-block: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cards{
+    background-color: rgb(227, 227, 227);
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.cards h2{
+    padding: 20px;
+}
+
+.pai{
+    display: flex;
+}
